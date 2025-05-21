@@ -1,0 +1,51 @@
+What is Git?
+- Git is a distributed version control system used to track changes in source code during software development.
+
+Git is the same as GitHub?
+- False
+(Git is a tool; GitHub is a cloud-based hosting service for Git repositories.)
+
+What is the command to get the installed version of Git?
+- git --version
+
+Which option should you use to set the default user name for every repository on your computer?
+- --global
+
+What is the command to set the user email for the current repository?
+- git config user.email "your-email@example.com"
+
+What is the command to add all files and changes of the current folder to the staging environment of the Git repository?
+- git add --all
+
+What is the command to get the current status of the Git repository?
+- git status
+
+What is the command to initialize Git on the current repository?
+- git init
+
+Git automatically adds new files to the repository and starts tracking them.
+- False
+(You need to manually add files using git add.)
+
+What is the command to commit the staged changes for the Git repository?
+- git commit
+
+What is the command to commit with the message "New email":
+- git commit -m "New email"
+
+What is the command to view the history of commits for the repository?
+- git log
+
+In Git, a branch is:
+- A separate version of the main repository
+
+What is the command to create a new branch named "new-email"?
+- git branch new-email
+
+What is the command to move to the branch named "new-email"?
+→ git checkout new-email
+(Or with newer versions: git switch new-email)
+
+What is the command to merge the current branch with the branch "new-email"?
+→ git merge new-email
+
